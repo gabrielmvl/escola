@@ -46,3 +46,10 @@
 - $n =$ Num_Lados
 
 $D = \frac{n \times (n - 3)}{2}$
+
+### Cálculo da soma de ângulos internos
+
+- $Si =$ Soma dos ângulos internos
+- $n =$ Num_Lados
+
+$Si = (n - 2) \times 180^\circ$
