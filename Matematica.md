@@ -9,6 +9,8 @@
 
 - Poligonos regulares são aqueles que são convexos, possuem todos os lados congruentes e seus angulos internos são congruentes, ou seja, seus lados e angulos têm a mesma medida.
 
+![regular](https://share.google/images/KOBEHQr2SkvNOKKeD)
+
 #### Poligono convexo
 
 - é quando os angulos internos medem menos que 180ª graus.
@@ -16,6 +18,8 @@
 ![convexos](convexos.png)
 
 ### Poligonos irregulares
+
+- Todos os polígonos que não são regulares
 
 ### Classificação de poligonos
 
