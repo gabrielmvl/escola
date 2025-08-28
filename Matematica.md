@@ -19,7 +19,9 @@
 
 ### Poligonos irregulares
 
-- Todos os polígonos que não são regulares
+- Todos os polígonos que não são regulares.
+
+![irregular](https://www.universoformulas.com/imagenes/matematicas/geometria/poligono-irregular.jpg)
 
 ### Classificação de poligonos
 
