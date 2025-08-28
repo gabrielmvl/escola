@@ -42,14 +42,18 @@
 
 ### Cálculo de diagonais 
 
-- $D =$ Num_Diagonais
-- $n =$ Num_Lados
+- $D =$ **Num_Diagonais**
+- $n =$ **Num_Lados**
 
 $D = \frac{n \times (n - 3)}{2}$
 
+- Calculadora
+
 ### Cálculo da soma de ângulos internos
 
-- $Si =$ Soma dos ângulos internos
-- $n =$ Num_Lados
+- $Si =$ **Soma dos ângulos internos**
+- $n =$ **Num_Lados**
 
 $Si = (n - 2) \times 180^\circ$
+
+- [**Calculadora**](https://replit.com/@2013gabrielgmvl/Teste1#main.py)
