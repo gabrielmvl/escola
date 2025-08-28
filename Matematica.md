@@ -45,4 +45,4 @@
 - $D =$ Num_Diagonais
 - $n =$ Num_Lados
 
-$D = (n(n-3))/2$
+$D = \frac{n \times (n - 3)}{2}$
