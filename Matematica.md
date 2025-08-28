@@ -39,3 +39,10 @@
 | 12          | Dodecágono       | 54        | 1800°                     |
 | 15          | Pentadecágono    | 90        | 2340°                     |
 | 20          | Icoságono        | 170       | 3240°                     |
+
+### Cálculo de diagonais 
+
+- $D =$ Num_Diagonais
+- $n =$ Num_Lados
+
+$(n(n-3))/2$
