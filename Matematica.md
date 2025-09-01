@@ -15,7 +15,7 @@
 
 - é quando os angulos internos medem menos que 180ª graus.
 
-![convexos](convexos.png)
+![convexos.png](https://i.postimg.cc/hvGLSKZb/convexos.png)
 
 ### Poligonos irregulares
 
@@ -47,7 +47,7 @@
 
 $D = \frac{n \times (n - 3)}{2}$
 
-- Calculadora
+- [Calculadora](./Matematica.py)
 
 ### Cálculo da soma de ângulos internos
 
@@ -56,4 +56,4 @@ $D = \frac{n \times (n - 3)}{2}$
 
 $Si = (n - 2) \times 180^\circ$
 
-- [**Calculadora**](https://replit.com/@2013gabrielgmvl/Teste1#main.py)
+- [Calculadora](./Matematica.py)
