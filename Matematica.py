@@ -52,12 +52,16 @@ def calcular_poligonos():
     pontos_de_espera("calculando", 3, (1/3))
     limpar()
 
-    poligonos = ["Triângulo", "Quadrilátero", "Pentágono", "Hexágono", "Heptágono", "Octógono", "Eneágono", "Decágono", "Undecágono", "Dodecágono", "Tridecágono", "Tetradecágono", "Pentadecágono", "Hexadecágono", "Heptadecágono", "Octodecágono", "Eneadecágono", "Icoságono", "Icosihenágono", "Icosidigono", "Icositricono", "Icositetrágono", "Icosipentágono", "Icosihexágono", "Icosiheptágono", "Icosioctógono", "Icosieneágono", "Triacontágono"]
+    with open('poligonos.txt', 'r', encoding='utf-8') as f:
+        conteudo = f.readlines()
+
+    poligonos = [poligono.strip() for poligono in conteudo]
+
     ordem = n - 3
     try:
         poligono_ordenado = poligonos[ordem]
     except IndexError:
-        poligono_ordenado = "(poligono não computado, temos apenas até 30 lados)"
+        poligono_ordenado = f"poligono de {n} lados"
         pass
 
     diagonais = (n * (n - 3)) / 2
