@@ -49,8 +49,8 @@ def calcular_poligonos():
         else:
             break
     limpar()
-    pontos_de_espera("calculando", 3, (1/3))
-    limpar()
+    # pontos_de_espera("calculando", 3, (1/3))
+    # limpar()
 
     with open('poligonos.txt', 'r', encoding='utf-8') as f:
         conteudo = f.readlines()
