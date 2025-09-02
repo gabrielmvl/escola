@@ -1,0 +1,1 @@
+pythonw /home/gabrielmvl/estudo/estudos/KeyLogger/main.py
