@@ -4,6 +4,8 @@
 
 - Gabriel Meireles
 
+- No aterro sanitario primeiramente
+
 ## Importância
 
 - João Guilherme
