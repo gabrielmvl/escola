@@ -73,6 +73,7 @@
 ##### Principais Motivos
 
 1. Demanda Europeia
+    - O açúcar tinha alto valor e demanda na Europa. Logo o alto custo de produção, valeu apena sobre o alto preço de revenda.
 1. Geografia
 1. Condições naturais
 1. Experiencia anterior
