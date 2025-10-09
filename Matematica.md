@@ -1,59 +1,69 @@
-# Matematica - capitulo 6
-# Poligonos e simetria: a base da progamação visual
+<!--
 
-## Poligonos
+Tópicos
 
-- **Linhas fechadas** formadas apenas por **segmentos de reta** que **não se cruzam** a não ser em suas **extremidades**.
+1. Razão.
+2. Proporção.
+3. Grandezas diretamente e inversamente proporcionais.
+4. Regra de três.
+5. Porcentagem (porcentagem de um todo e acréscimos e 
+decréscimos).
 
-### Poligonos regulares
+-->
 
-- Poligonos regulares são aqueles que são convexos, possuem todos os lados congruentes e seus angulos internos são congruentes, ou seja, seus lados e angulos têm a mesma medida.
+# 1. Razão
 
-![regular](https://www.universoformulas.com/imagenes/matematicas/geometria/poligono-regular.jpg)
+- A **razão** é dada pela **divisão** entre **dois números**, obedecendo a ordem no qual eles foram dados.
 
-#### Poligono convexo
+<span style="font-size: 2em;">$\frac{3}{4}$</span>
 
-- é quando os angulos internos medem menos que 180ª graus.
+3 é o antecedente
+4 é o consequente
 
-![convexos.png](https://i.postimg.cc/hvGLSKZb/convexos.png)
+- A razão pode ser representada dessas formas:
+    - 5:3
+    - 5/3
+    - $\frac{5}{3}$
 
-### Poligonos irregulares
+## Razões especiais
 
-- Todos os polígonos que não são regulares.
+- Escala
 
-![irregular](https://www.universoformulas.com/imagenes/matematicas/geometria/poligono-irregular.jpg)
+<span style="font-size: 1.4em;">$E = \frac{Medida-do-modelo}{Medida-real}$</span>
 
-### Classificação de poligonos
+- Velocidade media
 
-| Nº de lados | Nome             | Diagonais | Soma dos ângulos internos |
-|-------------|------------------|-----------|---------------------------|
-| 3           | Triângulo        | 0         | 180°                      |
-| 4           | Quadrado         | 2         | 360°                      |
-| 5           | Pentágono        | 5         | 540°                      |
-| 6           | Hexágono         | 9         | 720°                      |
-| 7           | Heptágono        | 14        | 900°                      |
-| 8           | Octógono         | 20        | 1080°                     |
-| 9           | Eneágono         | 27        | 1260°                     |
-| 10          | Decágono         | 35        | 1440°                     |
-| 11          | Unndecágono      | 44        | 1620°                     |
-| 12          | Dodecágono       | 54        | 1800°                     |
-| 15          | Pentadecágono    | 90        | 2340°                     |
-| 20          | Icoságono        | 170       | 3240°                     |
+<span style="font-size: 1.4em;">$V = \frac{Distância}{Tempo}$</span>
 
-### Cálculo de diagonais 
+- Densidade Demográfica
 
-- $D =$ **Num_Diagonais**
-- $n =$ **Num_Lados**
+<span style="font-size: 1.4em;">$D = \frac{Num-de-habitantes}{Área}$</span>
 
-$D = \frac{n \times (n - 3)}{2}$
+## Razão em pratica
 
-- [Calculadora](./Matematica.py)
+- Determine a razão 
+    - 14 e 2
+    - 35 e 50
 
-### Cálculo da soma de ângulos internos
+- 15 vitorias, 25 disputadas. Qual a razão entre as derrotas e partidas disputadas?
+- 2h de tempo gasto e 120km de distância. Qual é a velocidade media?
 
-- $Si =$ **Soma dos ângulos internos**
-- $n =$ **Num_Lados**
+# Proporção
 
-$Si = (n - 2) \times 180^\circ$
+- Proporção é uma igualdade entre duas razões.
 
-- [Calculadora](./Matematica.py)
+- Duas razões são proporcionais quando o resultado da divisão entre numerador e o denominador da primeira razão for igual ao resultado do segunda razão.
+
+<span style="font-size: 1.4em;">$\frac{a}{b}=\frac{c}{d}$</span>
+
+a e d são os extremos
+b e c são os meios
+
+- Uma propriedade fundamental das proporções é que o produto dos meios sempre deve ser igual ao produto dos extremos.
+
+## Proporção em pratica
+
+- <span style="font-size: 1.4em;">$\frac{4}{2}=\frac{12}{6}$</span>
+- Ache o valor de X:
+    - <span style="font-size: 1.4em;">$\frac{2}{6}=\frac{9}{x}$</span>
+    - <span style="font-size: 1.4em;">$\frac{x-4}{6}=\frac{9}{x}$</span>
