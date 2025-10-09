@@ -75,5 +75,28 @@
 1. Demanda Europeia
     - O açúcar tinha alto valor e demanda na Europa. Logo o alto custo de produção, valeu apena sobre o alto preço de revenda.
 1. Geografia
+    - Os rios facilitavam o escoamento do açúcar aos portos, encurtando viagens e tempo de revenda.
 1. Condições naturais
+    - Devido ao solo **massapê** e ao clima úmido e quente.
 1. Experiencia anterior
+    - Os portugueses já praticavam canavicultura, assim tendo uma certa experiencia na area.
+
+##### Começo
+
+- A Coroa portuguesa passou a responsabilidade da canavicultura aos capitães donatários que pagaram mais, recebendo mais terras para cultivar.
+
+- A venda do açúcar, entretanto era feita por comerciantes holandeses. Eles vendiam, pois assim como os donatários, também arcaram com os custos de implantação e foram responsáveis por refinar, transportar, comercializar e distribuir o açúcar.
+
+##### Montagem e estrutura
+
+- O primeiro engenho de açúcar foi organizado na capitania de São Vicente, no atual litoral de São Paulo, pelo capitão donatário Martim Afonso de Sousa em 1532. Em sua expedição, além das primeiras mudas de cana, ele trouxe portugueses, italianos e flamengos (grupo étnico holandês) com experiência na manufatura do açúcar.
+
+- Porém, antes do fim do século XV, a capitania de São Vicente sofreria invasões e perderia sua importância para o Nordeste. Ali, a lavoura desenvolveu-se predominantemente no litoral, entre Salvador e Natal, sendo Pernambuco e Bahia os grandes centros açucareiros.
+
+![h](image.png)
+
+- O engenho era a unidade produtora da economia. A partir dele muitas coisas das lavouras eram organizadas. Os engenhos ocuparam grandes 
+propriedades, causando enorme desigualdade na distribuição de terra.
+
+###### <span  style="font-weight: bold; color: white">Espaços do engenho</span>
+
