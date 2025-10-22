@@ -4,5 +4,10 @@
         "hectadodecagono",
         "hectaeneagono",
         "tupinaés"
-    ]
+    ],
+    "cSpell.enabledFileTypes" : {
+        "*": true,
+        "markdown": true,
+        "Python": false
+    },
 }
