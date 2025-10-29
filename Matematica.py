@@ -1,6 +1,7 @@
 import time
 import os
 import sys
+from statistics import mean, median, multimode
 
 # def para limpar terminal
 
@@ -71,12 +72,153 @@ def calcular_poligonos():
 
     print(f"O {poligono_ordenado} possui {d} diagonais, e a soma dos angulos internos é de {si}º.")
 
+# Media
+
+def media():
+    numeros = []
+    contador = 1
+    while True:
+        print("Digite 'x' para finalizar")
+        numero = input(f"Digite o {contador}º número: ")
+        limpar()
+        contador += 1
+        try:
+            numero = int(numero)
+            numeros.append(numero)
+        except ValueError:
+            if numero.lower() == "x":
+                break
+            else:
+                print("anotação invalida!")
+                timer(3)
+                contador -= 1
+    resposta = mean(numeros)
+    print(f"A media de {numeros} é {resposta}")
+
+# Mediana
+
+def mediana():
+    numeros = []
+    contador = 1
+    while True:
+        print("Digite 'x' para finalizar")
+        numero = input(f"Digite o {contador}º número: ")
+        limpar()
+        contador += 1
+        try:
+            numero = float(numero)
+            numeros.append(numero)
+        except ValueError:
+            if numero.lower() == "x":
+                break
+            else:
+                print("anotação invalida!")
+                timer(3)
+                contador -= 1
+    resposta = median(numeros)
+    print(f"A mediana de {numeros} é {resposta}")
+
+# Moda
+
+def moda():
+    numeros = []
+    contador = 1
+    while True:
+        print("Digite 'x' para finalizar")
+        numero = input(f"Digite o {contador}º número: ")
+        limpar()
+        contador += 1
+        try:
+            numero = float(numero)
+            numeros.append(numero)
+        except ValueError:
+            if numero.lower() == "x":
+                break
+            else:
+                print("anotação invalida!")
+                timer(3)
+                contador -= 1
+    resposta = multimode(numeros)
+    contador2 = 1
+    contador3 = 1
+    for item in resposta:
+        if contador2 == 1:
+            resposta_atu = f"{item}"
+        elif contador3 == len(resposta):
+            resposta_atu = f"{resposta_atu} e {item}"
+        else:
+            resposta_atu = f"{resposta_atu}, {item}"
+        contador2 += 1
+        contador3 += 1
+    print(f"A moda de {numeros} é {resposta_atu}")
+
+
+# Media2
+
+def media2(numeros):
+    resposta = mean(numeros)
+    return resposta
+
+# Mediana2
+
+def mediana2(numeros):
+    resposta = median(numeros)
+    return resposta
+
+# Moda2
+
+def moda2(numeros):
+    resposta = multimode(numeros)
+    resposta_atu = ""
+    contador2 = 1
+    contador3 = 1
+    for item in resposta:
+        if contador2 == 1:
+            resposta_atu = f"{item}"
+        elif contador3 == len(resposta):
+            resposta_atu = f"{resposta_atu} e {item}"
+        else:
+            resposta_atu = f"{resposta_atu}, {item}"
+        contador2 += 1
+        contador3 += 1
+    return resposta_atu
+
+# Geral
+
+def geral():
+    numeros = []
+    contador = 1
+    while True:
+        print("Digite 'x' para finalizar")
+        numero = input(f"Digite o {contador}º número: ")
+        limpar()
+        contador += 1
+        try:
+            numero = float(numero)
+            numeros.append(numero)
+        except ValueError:
+            if numero.lower() == "x":
+                break
+            else:
+                print("anotação invalida!")
+                timer(3)
+                contador -= 1
+    media = media2(numeros)
+    mediana = mediana2(numeros)
+    moda = moda2(numeros)
+    print(f"""Media: {media}
+Mediana: {mediana}
+Moda: {moda}
+Lista: {sorted(numeros)}
+Soma: {sum(numeros)}
+Quantidade: {len(numeros)}
+          """)
 # Menu
 
 def menu():
     while True:
 
-        menu = "Bem vindo a sua calculadora\n\n1 - Calculo de poligonos\n0 - Sair"
+        menu = "Bem vindo a sua calculadora\n\n1 - Calculo de poligonos\n2 - Media\n3 - Mediana\n4 - Moda\n0 - Sair"
         print(menu)
 
         menu_choose = input("Digite qual função deseja: ")
@@ -87,6 +229,26 @@ def menu():
                 limpar()
                 calcular_poligonos()
                 return
+
+            case '2':
+                limpar()
+                media()
+                return
+
+            case '3':
+                limpar()
+                mediana()
+                return
+
+            case '4':
+                limpar()
+                moda()
+                return
+            
+            case '123':
+                limpar()
+                geral()
+                return
                 
             case '0':
                 limpar()
@@ -96,4 +258,5 @@ def menu():
                 limpar()
                 continue
 
-menu()
+if __name__ == '__main__':
+    menu()
