@@ -72,6 +72,29 @@ def calcular_poligonos():
 
     print(f"O {poligono_ordenado} possui {d} diagonais, e a soma dos angulos internos é de {si}º.")
 
+# Amplitude
+
+def amplitude():
+    numeros = []
+    contador = 1
+    while True:
+        print("Digite 'x' para finalizar")
+        numero = input(f"Digite o {contador}º número: ")
+        limpar()
+        contador += 1
+        try:
+            numero = int(numero)
+            numeros.append(numero)
+        except ValueError:
+            if numero.lower() == "x":
+                break
+            else:
+                print("anotação invalida!")
+                timer(3)
+                contador -= 1
+    resposta = max(numeros) - min(numeros)
+    print(f"A amplitude de {numeros} é {resposta}")
+
 # Media
 
 def media():
@@ -153,6 +176,12 @@ def moda():
     print(f"A moda de {numeros} é {resposta_atu}")
 
 
+# Amplitude2
+
+def amplitude2(numeros):
+    resposta = max(numeros) - min(numeros)
+    return resposta
+
 # Media2
 
 def media2(numeros):
@@ -206,9 +235,11 @@ def geral():
     media = media2(numeros)
     mediana = mediana2(numeros)
     moda = moda2(numeros)
+    amplitude = amplitude2(numeros)
     print(f"""Media: {media}
 Mediana: {mediana}
 Moda: {moda}
+Amplitude: {amplitude}
 Lista: {sorted(numeros)}
 Soma: {sum(numeros)}
 Quantidade: {len(numeros)}
@@ -218,7 +249,7 @@ Quantidade: {len(numeros)}
 def menu():
     while True:
 
-        menu = "Bem vindo a sua calculadora\n\n1 - Calculo de poligonos\n2 - Media\n3 - Mediana\n4 - Moda\n0 - Sair"
+        menu = "Bem vindo a sua calculadora\n\n1 - Calculo de poligonos\n2 - Media\n3 - Mediana\n4 - Moda\n5 - Amplitude\n6 - Tudo\n0 - Sair"
         print(menu)
 
         menu_choose = input("Digite qual função deseja: ")
@@ -245,7 +276,12 @@ def menu():
                 moda()
                 return
             
-            case '123':
+            case '5':
+                limpar()
+                amplitude()
+                return
+            
+            case '6':
                 limpar()
                 geral()
                 return
