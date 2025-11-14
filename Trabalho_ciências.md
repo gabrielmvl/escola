@@ -1,6 +1,6 @@
-,# Função da Proteína
+# Função da Proteína
 
-- As proteínas são os principais macronutrientes com função estrutural de nosso organismo. São abundantes nos músculos, nos ossos e na pele, onde auxiliam na sustentação
+- As proteínas são os principais macronutrientes com função estrutural de nosso organismo. São abundantes nos músculos, nos ossos e na pele, onde auxiliam na sustentação.
 
 - As proteínas têm funções vitais, como estrutural, catalítica, transporte, imunológica, hormonal e, em últimos casos, energética . Elas são essenciais para o crescimento, manutenção e reparo de todos os tecidos do corpo, atuando em praticamente todos os processos biológicos.
 
@@ -92,16 +92,16 @@
 
 #### Formação
 
-1. **Síntese de aminoácidos:**
+1. Síntese de aminoácidos:
     - O processo começa com a união de aminoácidos, que formam longas cadeias polipeptídicas através de ligações peptídicas.
 
-1. **Estrutura tridimensional:**
+2. Estrutura tridimensional:
     - A cadeia de aminoácidos se enovela em uma estrutura tridimensional específica, que é crucial para sua função. Essa conformação é mantida por diferentes tipos de ligações.
 
-1. **Sítio ativo**:
+3. Sítio ativo:
     - A estrutura tridimensional cria um local na proteína chamado "sítio ativo", que tem um formato complementar ao substrato.
 
-1. **Ação catalítica:**
+4. Ação catalítica:
     - Quando a enzima se liga ao substrato em seu sítio ativo, ela o mantém de forma a facilitar a reação. A enzima não é consumida no processo e pode atuar repetidamente.
 
 ## Relação com outros nutrientes
@@ -110,13 +110,13 @@
 
 ### Proteína e outros macronutrientes
 
-- **Carboidratos:**
+- Carboidratos
 
     - Juntos, proteínas e carboidratos ajudam no balanço nitrogenado proteico e na manutenção do corpo.
 
     - Os carboidratos também são uma fonte de energia rápida, enquanto a proteína fornece energia mais lentamente.
 
-- **Gorduras**
+- Gorduras
 
     - Assim como carboidratos, as gorduras são fontes de energia, embora liberem essa energia mais lentamente.
 
@@ -124,13 +124,13 @@
 
 ### Proteína e micronutrientes
 
-- **Vitaminas e minerais:**
+- Vitaminas e minerais:
 
     - Alimentos de origem vegetal e animal fornecem proteínas, mas também são ricos em vitaminas e minerais que são essenciais para o bom funcionamento do corpo.
 
     - Por exemplo, a ingestão adequada de cálcio é importante para a saúde óssea, e a proteína contribui para essa saúde quando há uma ingestão suficiente de ambos os nutrientes.
 
-- **Água:**
+- Água:
 
     - A hidratação é essencial para a absorção de proteínas.
 
@@ -182,33 +182,33 @@
 
     - Como a proteína forma os musculos, sem ela perde-se musculos, comprometendo a força e a massa magra.
 
-1. Sistema imunológico enfraquecido:
+2. Sistema imunológico enfraquecido:
 
     - A produção de anticorpos e outras células de defesa depende de proteína, o que torna o corpo mais suscetível a infecções.
 
-1. Fadiga e baixa energia:
+3. Fadiga e baixa energia:
 
     - A falta de proteína pode levar à fadiga, pois o corpo pode recorrer à quebra de músculos para obter energia, especialmente quando há baixa ingestão de carboidratos também.
 
-1. Problemas de pele, cabelo e unhas:
+4. Problemas de pele, cabelo e unhas:
 
     - O colágeno e a queratina, proteínas estruturais importantes, são produzidos em menor quantidade, resultando em pele seca e sem elasticidade, cabelos finos e quebradiços e unhas fracas.
 
-1. Cicatrização lenta:
+5. Cicatrização lenta:
 
     - Proteínas como colágeno e fibrina são cruciais para a cicatrização de feridas, e sua deficiência pode retardar esse processo.
 
-1. Retardo no crescimento (em crianças):
+6. Retardo no crescimento (em crianças):
 
     - Em crianças, a falta crônica de proteína pode prejudicar o desenvolvimento físico e mental.
 
-1. Edema:
+7. Edema:
 
     - Em casos de ausencia grave, a falta de uma proteína sanguínea chamada albumina pode levar ao acúmulo de líquidos nos tecidos, causando inchaço.
 
     - Edema é um inchaço causado pelo acúmulo anormal de líquido nos tecidos do corpo, que pode afetar uma parte específica ou ser generalizado. Os sintomas incluem sensação de peso e inchaço, sensação de aperto em roupas ou joias, e pele tensa ou esticada na área afetada.
 
-1. Anemia:
+8. Anemia:
 
     - A proteína é necessária para a produção de hemoglobina, a proteína que transporta oxigênio no sangue, Resultando em cansaço e fraqueza.
 
@@ -229,3 +229,13 @@
 1. Alterações intestinais:
 
     - A digestão de grandes quantidades de proteína pode causar um aumento na produção de gases, especialmente com o uso de suplementos, devido à demora na digestão e à fermentação de componentes como a lactose (em suplementos derivados do leite). Algumas pesquisas sugerem que um consumo exagerado pode levar a respostas inflamatórias no intestino e, em alguns casos, até alterações preocupantes nas bactérias intestinais. 
+
+# ordem
+
+definição
+estrutura
+digestão
+função
+importancia
+qtd ideal
+exemplos
