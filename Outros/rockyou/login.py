@@ -5,7 +5,7 @@ import csv
 def timer(tempo):
     time.sleep(tempo)
 
-arquivo = "Outros/rockyou/rockyou-nums6.csv"
+arquivo = ""
 
 def digitar(item):
     auto.write(item, interval=0.001)

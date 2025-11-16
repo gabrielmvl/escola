@@ -1,11 +1,10 @@
 import numpy as np
-from tqdm import tqdm
 import os
 
 def limpar():
     os.system('cls' if os.name=='nt' else 'clear')
 
-destino = "outros/rockyou/arquivos/rockyou-nums6"
+destino = "outros/rockyou/arquivos/rockyou"
 numeros = []
 
 def txt_finalizar():
