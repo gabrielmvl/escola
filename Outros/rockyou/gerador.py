@@ -11,21 +11,19 @@ def txt_finalizar():
     ultimo = numeros[-1]
     with open(f"{destino}.txt", "w", encoding="UTF-8") as f:
         for n in numeros:
-            num = f"{n:06d}"
             if n == ultimo:
-                f.write(f'{num}')
+                f.write(n)
             else:
-                f.write(f'{num}\n')
+                f.write(f'{n}\n')
 
 def csv_finalizar():
     ultimo = numeros[-1]
     with open(f"{destino}.csv", "w", encoding="UTF-8") as f:
         for n in numeros:
-            num = f"{n:06d}"
             if n == ultimo:
-                f.write(f'{num}')
+                f.write(n)
             else:
-                f.write(f'{num};\n')
+                f.write(f'{n};\n')
 
 def menu_finalizar():
 
@@ -56,10 +54,12 @@ def menu_finalizar():
                 limpar()
                 continue
 
-def lista6nums():
+def ListaNums():
     limpar()
     while True:
-        menu = "Bem vindo ao seu gerador de lista de numeros de 6 algarismos\n\n1 - Normal\n2 - Reverse\n3 - Random\n0 - Sair"
+        Qtd = int(input("Bem vindo ao seu gerador de lista de numeros!\n\ndigite quantos algarismos deseja: "))
+        limpar()
+        menu = "Tipos de geração:\n\n1 - Normal\n2 - Reverse\n3 - Random\n0 - Sair"
         print(menu)
 
         menu_choose = input("Digite qual função deseja: ")
@@ -69,25 +69,26 @@ def lista6nums():
             case '1':
                 limpar()
                 numero = 0
-                for i in range(1000000):
-                    numeros.append(numero)
+                for i in range(10**Qtd):
+                    numeros.append(f"{numero:0{Qtd}d}")
                     numero += 1
                 break
                 
 
             case '2':
                 limpar()
-                numero = 999999
-                for i in range(1000000):
-                    numeros.append(numero)
+                numero = 10*Qtd-1
+                for i in range(10**Qtd):
+                    numeros.append(f"{numero:0{Qtd}d}")
                     numero -= 1
                 break
                 
 
             case '3':
                 limpar()
-                nums = np.random.permutation(1000000)
-                numeros.extend(nums)
+                nums = np.random.permutation(10**Qtd)
+                for num in nums:
+                    numeros.append(f"{num:0{Qtd}d}")
                 break
                 
             case '0':
@@ -101,7 +102,7 @@ def lista6nums():
 
 def menu():
     while True:
-        menu = "Qual o tipo de rockyou?\n\n1 - 6 algarismos\n0 - Sair"
+        menu = "Qual o tipo de rockyou?\n\n1 - Lista de números\n0 - Sair"
         print(menu)
 
         menu_choose = input("Digite qual função deseja: ")
@@ -110,7 +111,7 @@ def menu():
 
             case '1':
                 limpar()
-                lista6nums()
+                ListaNums()
                 return
                 
             case '0':
