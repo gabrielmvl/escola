@@ -1,28 +1,60 @@
 import bcrypt
+import uuid
+import csv
+import getpass
 
-# --- CADASTRO ---
-senha_usuario = "minha_senha_secreta"
+Dados = {}
 
-# Gera o "sal" (salt) aleatório
-salt = bcrypt.gensalt()
+def gerarSalt():
+    salt = bcrypt.gensalt()
+    return salt
 
-print(salt)
+def gerar_id():
+    id = str(uuid.uuid4())
+    return id
 
-# Cria o hash (transforma a senha numa sopa de letrinhas)
-# O encode() é necessário pois o bcrypt trabalha com bytes
-senha_hash = bcrypt.hashpw(senha_usuario.encode('utf-8'), salt)
+def BancoDeDados():
 
-print(senha_hash)
+    with open('Usuarios.csv', 'r', encoding='utf-8') as f:
+        BancoDeDados = csv.reader(f, delimiter=';')
+        for usuario in BancoDeDados:
+            Email = usuario[0]
+            UserName = usuario[1]
+            Senha = usuario[2]
+            Id = usuario[3]
+            Dados[Email] = [UserName, Senha, Id]
 
-print(f"O que vai para o banco: {senha_hash}")
-# Vai imprimir algo como: b'$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/M...'
+def ColetarDados(metodo):
+    Email = input("Digite seu e-mail: ")
 
+    if metodo != "registro":
+        UserName = input("Digite seu username: ")
 
-# --- LOGIN ---
+    while True:
+        Senha = getpass.getpass("Digite sua senha: ")
+        ComfirmarSenha = getpass.getpass("Confirme sua senha: ")
 
-senha_digitada = input("senha: ")
+        if Senha != ComfirmarSenha:
+            print("Senhas não coencidem")
 
-if bcrypt.checkpw(senha_digitada.encode('utf-8'), senha_hash):
-    print("Login Aprovado!")
-else:
-    print("Senha Incorreta.")
+        else: break
+
+    return UserName, Email, Senha
+
+def registro(Username, Email, Senha):
+    with open('Usuarios.csv', 'a', encoding='utf-8') as f:
+        file = csv
+
+def Menu():
+    Menu = input("""Bem vindo ao menu:
+
+    1 - Registrar-se
+    2 - Login
+    3 - Esqueci a senha
+
+    Qual Opção deseja: 
+""")
+
+    match Menu:
+        case '1':
+            
