@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "io/github/ticua07/stringduperfix/mixin/TripwireHookBlockMixin": {
+      "Lnet/minecraft/block/BlockState;isOf(Lnet/minecraft/block/Block;)Z": "Lnet/minecraft/class_2680;method_27852(Lnet/minecraft/class_2248;)Z",
+      "Lnet/minecraft/world/World;getBlockState(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;": "Lnet/minecraft/class_1937;method_8320(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;",
+      "update": "Lnet/minecraft/class_2537;method_10776(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;ZZILnet/minecraft/class_2680;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "io/github/ticua07/stringduperfix/mixin/TripwireHookBlockMixin": {
+        "Lnet/minecraft/block/BlockState;isOf(Lnet/minecraft/block/Block;)Z": "Lnet/minecraft/class_2680;method_27852(Lnet/minecraft/class_2248;)Z",
+        "Lnet/minecraft/world/World;getBlockState(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;": "Lnet/minecraft/class_1937;method_8320(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;",
+        "update": "Lnet/minecraft/class_2537;method_10776(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;ZZILnet/minecraft/class_2680;)V"
+      }
+    }
+  }
+}
