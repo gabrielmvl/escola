@@ -1,5 +1,5 @@
 # Capítulo 1
-# Números naturais e inteiros
+# Conjuntos numéricos
 ## Conjunto dos números naturais
 
 - Números positivos!
@@ -21,6 +21,40 @@ Números inteiros:
 Números inteiros não nulos:
 
 - <span style="font-size: 20px;">__$Ƶ^* = \{...-2, -1, 1, 2...\}$__</span>
+
+## Conjunto dos números racionais
+
+- São os números representados por fração
+
+### Exemplos
+
+- <span style="font-size: 20px;">__$\frac{2}{3} = 0,\overline{66}$__</span>
+ㅤㅤ
+- <span style="font-size: 20px;">__$\frac{5}{2} = 2,5$__</span>
+ㅤㅤ
+- <span style="font-size: 20px;">__$\frac{1}{9} = 0,\overline{111}$__</span>
+
+## Conjunto dos números irracionais
+
+- É um número que não pode ser representado por fração
+
+### Exemplos
+
+- Raiz não exata:
+    - <span style="font-size: 20px;">__$\sqrt{2} = 1,4142135623...$__</span>
+    - <span style="font-size: 20px;">__$\sqrt{33} = 5,74456264654...$__</span>
+    - <span style="font-size: 20px;">__$\sqrt{15} = 3,87298334621...$__</span>
+
+- Outros:
+    - <span style="font-size: 20px;">__$\pi = 3,14159265359$__</span>
+    - <span style="font-size: 20px;">__$e$__</span>
+    - <span style="font-size: 20px;">__$\phi$__</span>
+
+## Conjunto do números reais
+
+- É o conjunto que comporta os conjuntos, natural, inteiros, racionais e irracionais, ao mesmo tempo.
+
+![](https://i.ibb.co/xqS0W5rD/diagrama-com-o-conjunto-dos-numeros-reais-e-seus-subconjuntos-removebg-preview.png)
 
 ## Regra de sinais
 
