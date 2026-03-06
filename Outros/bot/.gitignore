@@ -1,4 +1,7 @@
 configurar.bat
 baixar.bat
 enviar.bat
+configurar.vbs
+baixar.vbs
+enviar.vbs
 .gitignore
