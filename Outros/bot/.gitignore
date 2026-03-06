@@ -1,2 +1,4 @@
-configuração.ps1
-Enviar.bat
+configurar.bat
+baixar.bat
+enviar.bat
+.gitignore
