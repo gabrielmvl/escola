@@ -135,3 +135,17 @@ __8. Permanecer*__
 ### Predicado verbo-nominal
 
 - Quando possuí dois núcleos, um verbo intransitivo ou transitivo e um predicativo
+
+## Adjunto adverbial
+
+- Acrescenta circunstâncias a um verbo por meio de adverbios e loc. adverbiais. 
+
+## Adjunto adnominal 
+
+- Acrescenta a ideia de quantidade ou posse aos substantivos
+
+Numeral
+Artigo 
+Pronome
+Adjetivo 
+Loc. adjetiva
