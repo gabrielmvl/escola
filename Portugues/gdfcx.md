@@ -138,7 +138,7 @@ __8. Permanecer*__
 
 ## Adjunto adverbial
 
-- Acrescenta circunstâncias a um verbo por meio de adverbios e loc. adverbiais. 
+- Acrescenta circunstâncias a um verbo por meio de advérbios e loc. adverbiais. 
 
 ## Adjunto adnominal 
 
